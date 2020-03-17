@@ -1,0 +1,17 @@
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
+.squ{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #00AADD;
+    @include transform(rotate(45deg));
+}
+
+p{
+    @include transform(rotate(180deg));
+    
+}

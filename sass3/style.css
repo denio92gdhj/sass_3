@@ -1,0 +1,15 @@
+.squ {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #00AADD;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    
+}
+
+p  {
+    
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
